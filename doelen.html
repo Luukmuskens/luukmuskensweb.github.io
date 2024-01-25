@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/98mprice/PSone.css@master/PSone.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <!DOCTYPE html>
+    <html lang="ja">
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <meta name="description" content="PSone.css is a Playstation 1 style CSS Framework." />
+        <meta name="keywords" content="html5,css,framework,Playstation" />
+        <meta name="author" content="© 2018 Micah Price" />
+        <link rel="shortcut icon" type="image/png" href="favicon.png">
+    
+        <link rel="apple-touch-icon" sizes="180x180" href="./meta/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./meta/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./meta/favicon-16x16.png">
+        <link rel="manifest" href="./meta/site.webmanifest">
+        <link rel="mask-icon" href="./meta/safari-pinned-tab.svg" color="#E03C34">
+        <meta name="msapplication-TileColor" content="#E03C34">
+        <meta name="theme-color" content="#E03C34">
+    
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="PSOne.css" />
+        <meta property="og:description" content="PSOne-style CSS Framework" />
+        <meta property="og:image" content="./meta/favicon-16x16.png" />
+    
+        <link rel="stylesheet" type="text/css" href="images/logo voor alles.png">
+        <style>
+          .play {
+            font-family:"Play";
+          }
+          .logo {
+            margin: 0 2rem 0 2rem;
+            height: 50px;
+          }
+          .fork-me {
+            position: absolute;
+            right: 0;
+            top: 0;
+          }
+          @media only screen and (max-width: 768px) {
+            .play > .logo {
+              height: 50px;
+              margin-bottom: 40px;
+            }
+            .play {
+              margin-left: 1rem;
+            }
+            .container {
+              width: 90%;
+            }
+            .buttons {
+              display: flex;
+              flex-flow: column wrap;
+              align-items: center;
+            }
+            .containers {
+              width: calc(100% - .5em);
+            }
+            .title {
+              white-space: nowrap;
+              overflow: hidden;
+              text-overflow: ellipsis;
+              box-sizing: border-box;
+              width: 260px;
+              height: 24px;
+              font-size: 50px;
+              line-height: 0px;
+            }
+            .progress:not(:first-child) {
+              margin-top: 35px;
+            }
+            .progress:first-child {
+              margin-top: 10px;
+            }
+            .controller-buttons {
+              margin: 1rem;
+              display: flex;
+              align-items: center;
+              flex-flow: row wrap;
+            }
+            .progress > .subtitle {
+              position: absolute;
+              top: .44em;
+              left: 20%;
+              display: block;
+            }
+            h1 {
+              font-size: 1.7em;
+            }
+            .footer {
+              text-align: center;
+            }
+            .logo {
+              margin-top: .5em;
+            }
+            .fork-me {
+              top: .5em;
+            }
+            .input {
+              width: 90%;
+            }
+          }
+          @media only screen and (min-width: 769px) {
+            .progress > .subtitle {
+              position: absolute;
+              top: .44em;
+              left: 15%;
+              display: block;
+            }
+            .controller-buttons {
+              margin: 1rem;
+              display: flex;
+              align-items: center;
+              flex-flow: row wrap;
+            }
+          }
+          @media only screen and (min-width: 320px)  and (max-width: 321px) {
+            body {
+              width: calc(100% + .5em)
+            }
+            h1 {
+              font-size: 1.7em;
+            }
+          }
+        </style>
+    
+        <title>PSone.css</title>
+      </head>
+    
+      <body>
+        <header style="position: relative;">
+          <div style="display:flex;align-items:center;flex-flow:row wrap;">
+            <img class="logo" src="images/logo voor alles.png"></img>
+            <h1 class="play">Doelen</h1>
+          </div>
+          <p>Welkom bij mijn doelen naar succes-pagina, veel plezier!</a></p>
+        </header>
+    
+     
+        <section class="container with-title">
+          <h2 class="title">menu</h2>
+          <div style="margin: 1rem;" class="buttons">
+
+           <a href="aboutme.html">
+            <button type="button" style="margin-bottom: .4em" class="btn alternative">mijzelf</button>
+           </a>
+           <a href="skills.html">
+            <button type="button" style="margin-bottom: .4em" class="btn alternative">Vaardigheid</button>
+           </a>
+           <a href="doelen.html">
+            <button type="button" style="margin-bottom: .4em" class="btn alternative">Doelen </button>
+           </a>
+
+           <a href="contact.html">
+            <button type="button" style="margin-bottom: .4em" class="btn alternative">Contact </button>
+           </a>
+
+           <a href="projecten.html">
+            <button type="button" style="margin-bottom: .4em" class="btn alternative">Projecten </button>
+           </a>
+
+           <a href="index.html">
+            <button type="button" style="margin-bottom: .4em" class="btn primary">Start</button>
+           </a>
+          </div>
+        </section>
+
+        <section class="container">
+          <div style="margin: 1rem;" class="progresses">
+            <div class="progress">
+              <div class="bar" style="width: 100%"></div>
+              <div class="subtitle">Hard samen werken tot de klant tevreden is</div>
+            </div>
+            <div class="progress primary">
+              <div class="bar" style="width: 100%"></div>
+              <div class="subtitle">Design moet goedgekeurd worden door de klant</div>
+            </div>
+            <div class="progress success">
+              <div class="bar" style="width: 100%"></div>
+              <div class="subtitle">Ontvang het optimale advies over uw website</div>
+            </div>
+            <div class="progress warning">
+              <div class="bar" style="width: 100%"></div>
+              <div class="subtitle">Creatieve designs en websites</div>
+            </div>
+            <div class="progress error">
+              <div class="bar" style="width: 100%"></div>
+              <div class="subtitle">Goed luisteren naar de eisen van de klant</div>
+            </div>
+            <div class="progress indeterminate">
+              <div class="bar" style="width: 100%"></div>
+              <div class="subtitle">Uw website heeft u voor de deadline</div>
+            </div>
+          </div>
+        </section>
+        <footer class="footer">
+          <p>
+            Made with ♥ </a>.
+            Special thanks to <a href="https://twitter.com/">luuk_muske28604</a>.
+          </p>
+          <p>
+            TM & © Luuk Muskens. All Rights Reserved
+          </p>
+        </footer>
+      </body>
+    </html>
+</body>
+</html>
